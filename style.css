@@ -191,7 +191,7 @@ select {
 .title-left > h2 {
     text-transform: uppercase;
     font-size: 5rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
     font-weight: 800;
     color: black;
 }
@@ -220,4 +220,103 @@ select {
 .about-content-right > .logo {
     width: 428px;
     height: 115px;
+}
+
+/* Services section */
+
+.services {
+    height: 100vh;
+    background: #0B1321;
+    padding: 8rem;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-right {
+    width: fit-content;
+    border-top: 5px solid #009DC4;
+    border-right: 5px solid #009DC4;
+    align-self: flex-end;
+}
+
+.title-right > h2 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    padding-right: 1rem;
+    font-weight: 800;
+    color: #FBF5F3;
+}
+
+.service-cards {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.service-card {
+    border: 5px solid #FBF5F3;
+    width: 23%;
+    height: 60vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title > h3 {
+    color: #0B1321;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+
+.card-title {
+    border-bottom: 3px solid #009DC4;
+    line-height: normal;
+}
+
+.card-text > p {
+    line-height: normal;
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.card-text > p > span {
+    color: #009DC4;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.card-text > p > span:hover {
+    cursor: pointer;
+}
+
+.card-left {
+    background: url(img/pexels-elvis-2528118.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-center-left {
+    background: url(img/pexels-anna-shvets-5682332.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+}
+
+.card-center-right {
+    background: url(img/pexels-nappy-936137.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-right {
+    background: url(img/pexels-christina-morillo-1181673.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: flex-end;
 }

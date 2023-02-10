@@ -363,20 +363,21 @@ select {
 }
 
 .case-studies-buttons {
-    color: #FBF5F3;
     display: flex;
     width: fit-content;
 }
 
-.pdf-button {
+.button {
     background: #0B1321;
+    color: #FBF5F3;
     font-weight: 700;
     font-size: 1.6rem;
     margin-right: 1rem;
     padding: 0.5rem 8rem 0.5rem 0.5rem;
+    width: fit-content;
 }
 
-.pdf-button:hover {
+.button:hover {
     cursor: pointer;
     color: #009DC4;
 }
@@ -394,3 +395,47 @@ select {
 
 /* Contact section */
 
+.contact {
+    background: #EFF1F3;
+    padding: var(--body-padding);
+    height: calc(100vh / 2);
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row-reverse;
+    height: calc((100vh / 2) - 12rem);
+    justify-content: space-between;
+}
+
+.contact-content > .title-right {
+    align-self: flex-start;
+    width: fit-content;
+    height: 50%;
+}
+
+.contact-content > .title-right > h2 {
+    color: #0B1321;
+}
+
+.contact-details {
+    border-left: 5px solid #009DC4;
+    border-bottom: 5px solid #009DC4;
+    padding-left: 1rem;
+    width: 65%;
+}
+
+.contact-email > h3,
+.contact-enquire > h3 {
+    color: #0B1321;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
+
+.contact-email > p {
+    font-size: 1.6rem;
+}
+
+.contact-enquire > .button {
+    text-transform: uppercase;
+}

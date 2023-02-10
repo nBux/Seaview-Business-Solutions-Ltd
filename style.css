@@ -1,0 +1,219 @@
+/* Import font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Inter', sans-serif;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* CSS reset and default styling complete.
+    Beginning of main body of code. */
+
+/* Landing Page */
+
+.landing {
+    height: 100vh;
+    background: #FBF5F3;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-img {
+    background-image: url(img/bux.idk_office_overlooking_the_sea_blue_sky_panoramic_glass_win_5b3aad97-4ce5-4cce-9246-127ddef1c8ed.png);
+    height: calc(100vh - 170px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: -180px;
+}
+
+.landing-heading {
+    position: relative;
+    background: #0B1321;
+    width: 794px;
+    height: 178px;
+    display: flex;
+    align-items: center;
+    top: 79px;
+    padding: 1rem 2rem 1rem 0;
+}
+
+.landing-heading > h1 {
+    position: relative;
+    color: #FBF5F3;
+    text-transform: capitalize;
+    text-align: center;
+    width: 80%;
+    left: 20%;
+    font-size: 4rem;
+    line-height: normal;
+}
+
+.navbar {
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0  2rem 0 2rem;
+}
+
+.logo {
+    background-image: url(img/Color\ logo\ -\ no\ background.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar > .logo {
+    width: 428px;
+    height: 115px;
+}
+
+.navigation {
+    width: 675px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    text-transform: uppercase;
+    color: #0B1321;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+/* About section */
+
+.about {
+    height: 100vh;
+    background: #FBF5F3;
+}
+
+.about-container {
+    position: relative;
+    display: flex;
+    width: 98%;
+    height: 100vh;
+    top: -3rem;
+}
+
+.about-content-left {
+    background: #FBF5F3;
+    color: #0B1321;
+    padding: 8rem;
+    width: 65%;
+}
+
+.title-left {
+    width: fit-content;
+    border-top: 5px solid #009DC4;
+    border-left: 5px solid #009DC4;
+}
+
+.title-left > h2 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    padding-left: 0.5rem;
+    font-weight: 800;
+    color: black;
+}
+
+.about-content-left > p {
+    margin-top: 2rem;
+}
+
+.about-content-left > p,
+.about-content-right > ul > li {
+    font-size: 1.4rem;
+}
+
+.about-content-right {
+    background: #0B1321;
+    color: #FBF5F3;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15.5rem 2.5rem 2.5rem 2.5rem;
+    border-radius: 0 1rem 1rem 1rem;
+}
+
+.about-content-right > .logo {
+    width: 428px;
+    height: 115px;
+}

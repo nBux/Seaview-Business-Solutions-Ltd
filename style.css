@@ -84,6 +84,11 @@ select {
 /* CSS reset and default styling complete.
     Beginning of main body of code. */
 
+/* Root variables */
+:root {
+    --body-padding: 6rem;
+}
+
 /* Landing Page */
 
 .landing {
@@ -173,12 +178,12 @@ select {
     width: 98%;
     height: 100vh;
     top: -3rem;
-}
+}   
 
 .about-content-left {
     background: #FBF5F3;
     color: #0B1321;
-    padding: 8rem;
+    padding: var(--body-padding);
     width: 68%;
 }
 
@@ -197,7 +202,7 @@ select {
 }
 
 .about-content-left > p {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .about-content-left > p,
@@ -213,7 +218,7 @@ select {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 15.5rem 2.5rem 2.5rem 2.5rem;
+    padding: 13.5rem 2.5rem 2.5rem 2.5rem;
     border-radius: 0 1.5rem 1.5rem 1.5rem;
 }
 
@@ -227,7 +232,7 @@ select {
 .services {
     height: 100vh;
     background: #0B1321;
-    padding: 8rem;
+    padding: var(--body-padding);
 }
 
 .service-container {
@@ -252,7 +257,7 @@ select {
 
 .service-cards {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 3rem;
     justify-content: space-between;
 }
 
@@ -320,3 +325,72 @@ select {
     background-position: center;
     justify-content: flex-end;
 }
+
+/* Case studies section */
+
+.case-studies {
+    background: #FBF5F3;
+    height: 100vh;
+    padding: var(--body-padding);
+}
+
+.case-studies-content {
+    background: #EFF1F3;
+    padding: 2rem;
+    width: 75%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 23rem);
+}
+
+.case-studies-text {
+    color: #0B1321;
+}
+
+.case-studies-text > h3 {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+
+.case-studies-text > h4 {
+    font-size: 1.1rem;
+}
+
+.case-studies-text > p {
+    width: 60%;
+}
+
+.case-studies-buttons {
+    color: #FBF5F3;
+    display: flex;
+    width: fit-content;
+}
+
+.pdf-button {
+    background: #0B1321;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    padding: 0.5rem 8rem 0.5rem 0.5rem;
+}
+
+.pdf-button:hover {
+    cursor: pointer;
+    color: #009DC4;
+}
+
+.case-studies-image {
+    position: absolute;
+    background: url(img/pexels-ruslan-burlaka-140945.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    aspect-ratio: 1.4;
+    right: 0;
+}
+
+/* Contact section */
+

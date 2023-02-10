@@ -156,6 +156,10 @@ select {
     font-size: 24px;
 }
 
+.links:hover {
+    color: #009DC4;
+}
+
 /* About section */
 
 .about {
@@ -175,7 +179,7 @@ select {
     background: #FBF5F3;
     color: #0B1321;
     padding: 8rem;
-    width: 65%;
+    width: 68%;
 }
 
 .title-left {
@@ -204,13 +208,13 @@ select {
 .about-content-right {
     background: #0B1321;
     color: #FBF5F3;
-    width: 35%;
+    width: 32%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 15.5rem 2.5rem 2.5rem 2.5rem;
-    border-radius: 0 1rem 1rem 1rem;
+    border-radius: 0 1.5rem 1.5rem 1.5rem;
 }
 
 .about-content-right > .logo {

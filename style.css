@@ -495,13 +495,13 @@ select {
     padding: 0;
     margin: 0;
     color: #FBF5F3;
-    font-weight: lighter;
+    font-weight: 300;
     font-size: large;
 }
 
 .footer-content > ul > li > a {
     color: #FBF5F3;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .footer-links {
@@ -511,5 +511,4 @@ select {
 
 .footer-links > li > a:hover {
     color: #009DC4;
-    font-weight: normal;
 }

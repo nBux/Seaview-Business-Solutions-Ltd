@@ -145,11 +145,12 @@ select {
     background-image: url(img/Color\ logo\ -\ no\ background.svg);
     background-size: cover;
     background-position: center;
-}
-
-.navbar > .logo {
     width: 428px;
     height: 115px;
+}
+
+.burger {
+    display: none;
 }
 
 .navigation {
@@ -240,11 +241,6 @@ select {
     align-items: center;
     padding: 13.5rem 2.5rem 2.5rem 2.5rem;
     border-radius: 0 1.5rem 1.5rem 1.5rem;
-}
-
-.about-content-right > .logo {
-    width: 428px;
-    height: 115px;
 }
 
 /* Services section */
@@ -483,12 +479,6 @@ select {
     gap: 16rem;
 }
 
-.footer-details > .logo {
-    width: 428px;
-    height: 115px;
-    cursor: pointer;
-}
-
 .footer-details > ul,
 .footer-content > ul {
     list-style: none;
@@ -511,4 +501,88 @@ select {
 
 .footer-links > li > a:hover {
     color: #009DC4;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 420px) {
+
+    :root {
+        --body-padding: 1.4rem;
+    }
+
+    /* Landing Page MOBILE */
+
+    .navbar {
+        height: 132px;
+        padding: var(--body-padding);
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .logo {
+        background-image: url(img/Color\ logo\ icon\ -\ no\ background.png);
+        width: 95px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .landing-heading,
+    .scroll {
+        display: none;
+    }
+
+    .landing-img {
+        background-position: center;
+        height: 137px;
+    }
+
+    /* Section height changes */
+
+    .landing,
+    .about,
+    .services,
+    .case-studies {
+        height: fit-content;
+    }
+
+    /* About Section MOBILE */
+
+    .about-container {
+        flex-direction: column;
+        top: 0;
+    }
+
+    .about-container,
+    .about-content-left,
+    .about-content-right {
+        width: 100%;
+    }
+
+    .title-left,
+    .title-right {
+        width: 100%;
+    }
+
+    .title-left > h2,
+    .title-right > h2 {
+        font-size: 4rem;
+    }
+
+    .about-content-left > p,
+    .about-content-right > ul > li {
+        font-size: 0.8rem;
+    }
+
+    .about-content-right {
+        border-radius: 0;
+        padding: var(--body-padding);
+    }
+
+    .footer-details {
+        gap: 1rem;
+    }
+
 }

@@ -673,8 +673,46 @@ select {
 
     /* Footer Section MOBILE */
 
-    .footer-details {
-        gap: 1rem;
+    .footer {
+        height: auto;
+        display: block;
+        padding: var(--body-padding);
     }
 
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-details{
+        gap: 1.5rem;
+    }
+
+    .footer-links {
+        display: flex;
+        order: 1;
+        gap: 2rem;
+    }
+
+    .footer-details {
+        margin-top: 1rem;
+        order: 2;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-details > ul {
+        font-size: 0.8rem;
+    }
+
+    .footer-details > .logo {
+        background: url(img/Color\ logo\ -\ no\ background.svg);
+        width: 100%;
+        height: 115px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .footer-content > ul {
+        font-size: 0.8rem;
+    }
 }

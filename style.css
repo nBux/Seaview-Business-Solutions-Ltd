@@ -103,7 +103,7 @@ select {
 }
 
 .landing-img {
-    background-image: url(img/bux.idk_office_overlooking_the_sea_blue_sky_panoramic_glass_win_5b3aad97-4ce5-4cce-9246-127ddef1c8ed.png);
+    background-image: url(img/bux.idk_office_overlooking_the_sea_blue_sky_panoramic_glass_win_5b3aad97-4ce5-4cce-9246-127ddef1c8ed.webp);
     height: calc(100vh - 170px);
     background-size: cover;
     background-position: center;
@@ -316,27 +316,27 @@ select {
 }
 
 .card-left {
-    background: url(img/pexels-elvis-2528118.jpg);
+    background: url(img/pexels-elvis-2528118.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .card-center-left {
-    background: url(img/pexels-anna-shvets-5682332.jpg);
+    background: url(img/pexels-anna-shvets-5682332.webp);
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: flex-end;
 }
 
 .card-center-right {
-    background: url(img/pexels-nappy-936137.jpg);
+    background: url(img/pexels-nappy-936137.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .card-right {
-    background: url(img/pexels-christina-morillo-1181673.jpg);
+    background: url(img/pexels-christina-morillo-1181673.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -401,7 +401,7 @@ select {
 
 .case-studies-image {
     position: absolute;
-    background: url(img/pexels-ruslan-burlaka-140945.jpg);
+    background: url(img/pexels-ruslan-burlaka-140945.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

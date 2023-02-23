@@ -246,7 +246,6 @@ select {
 /* Services section */
 
 .services {
-    height: 100vh;
     background: #0B1321;
     padding: var(--body-padding);
 }

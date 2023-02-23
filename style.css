@@ -376,6 +376,7 @@ select {
 
 .case-studies-text > p {
     width: 60%;
+    margin-bottom: 1rem;
 }
 
 .case-studies-buttons {
@@ -696,13 +697,6 @@ select {
     .footer-content > .business-details {
         order: 3;
     }
-
-    /* .footer-details {
-        margin-top: 1rem;
-        order: 2;
-        flex-direction: column;
-        width: 100%;
-    } */
 
     .footer-details > ul {
         font-size: 0.8rem;

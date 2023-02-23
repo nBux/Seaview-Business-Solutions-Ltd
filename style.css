@@ -346,7 +346,6 @@ select {
 
 .case-studies {
     background: #FBF5F3;
-    height: 100vh;
     padding: var(--body-padding);
 }
 

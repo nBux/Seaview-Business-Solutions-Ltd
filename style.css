@@ -359,7 +359,6 @@ select {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: calc(100vh - 23rem);
 }
 
 .case-studies-text {
@@ -415,19 +414,16 @@ select {
 .contact {
     background: #EFF1F3;
     padding: var(--body-padding);
-    height: calc(100vh / 2);
 }
 
 .contact-content {
     display: flex;
     flex-direction: row-reverse;
-    height: calc((100vh / 2) - 12rem);
     justify-content: space-between;
 }
 
 .contact-content > .title-right {
     align-self: flex-start;
-    height: 50%;
 }
 
 .contact-content > .title-right > h2 {
@@ -438,7 +434,7 @@ select {
     border-left: 5px solid #009DC4;
     border-bottom: 5px solid #009DC4;
     padding-left: 1rem;
-    width: 65%;
+    width: 50%;
 }
 
 .contact-email > h3,
@@ -454,6 +450,7 @@ select {
 
 .contact-enquire > .button {
     text-transform: uppercase;
+    margin-bottom: 1rem;
 }
 
 /* Footer section */

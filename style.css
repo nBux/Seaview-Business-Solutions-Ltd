@@ -473,7 +473,6 @@ select {
 .footer-details {
     display: flex;
     align-items: center;
-    gap: 16rem;
 }
 
 .footer-details > ul,
@@ -690,12 +689,20 @@ select {
         gap: 2rem;
     }
 
-    .footer-details {
+    .footer-content > .logo {
+        order: 2;
+    }
+
+    .footer-content > .business-details {
+        order: 3;
+    }
+
+    /* .footer-details {
         margin-top: 1rem;
         order: 2;
         flex-direction: column;
         width: 100%;
-    }
+    } */
 
     .footer-details > ul {
         font-size: 0.8rem;

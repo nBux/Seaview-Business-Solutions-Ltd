@@ -533,6 +533,7 @@ select {
         flex-direction: column;
         justify-content: center;
         gap: 0.8rem;
+        margin-right: 1rem;
     }
 
     .mobi-menu {

@@ -527,7 +527,7 @@ select {
     }
 
     .burger {
-        width: 80px;
+        width: 65px;
         aspect-ratio: 1;
         display: flex;
         flex-direction: column;

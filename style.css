@@ -226,8 +226,7 @@ select {
     margin-top: 3rem;
 }
 
-.about-content-left > p,
-.about-content-right > ul > li {
+.about-content-left > p {
     font-size: 1.4rem;
 }
 
@@ -239,8 +238,22 @@ select {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 13.5rem 2.5rem 2.5rem 2.5rem;
+    padding: 6.5rem 2.5rem 2.5rem 2.5rem;
     border-radius: 0 1.5rem 1.5rem 1.5rem;
+    box-shadow: 5px 5px 10px 0px #0B1321;
+}
+
+.about-content-right > h3 {
+    width: 120%;
+    text-align: center;
+    background: #009DC4;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    box-shadow: 0px 12px 22px 0px #0B1321;
+}
+
+.about-content-right > p {
+    font-size: 1.2rem;
 }
 
 /* Services section */

@@ -173,7 +173,7 @@ select {
 .scroll {
     position: absolute;
     width: 100%;
-    height: 125px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,8 +182,10 @@ select {
 }
 
 .scroll > a > img {
-    width: 300px;
+    width: 175px;
     cursor: pointer;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 /* About section */
@@ -259,7 +261,6 @@ select {
 /* Services section */
 
 .services {
-    height: 100vh;
     background: #0B1321;
     padding: var(--body-padding);
 }
@@ -360,7 +361,6 @@ select {
 
 .case-studies {
     background: #FBF5F3;
-    height: 100vh;
     padding: var(--body-padding);
 }
 
@@ -372,7 +372,6 @@ select {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: calc(100vh - 23rem);
 }
 
 .case-studies-text {
@@ -390,6 +389,7 @@ select {
 
 .case-studies-text > p {
     width: 60%;
+    margin-bottom: 1rem;
 }
 
 .case-studies-buttons {
@@ -428,19 +428,16 @@ select {
 .contact {
     background: #EFF1F3;
     padding: var(--body-padding);
-    height: calc(100vh / 2);
 }
 
 .contact-content {
     display: flex;
     flex-direction: row-reverse;
-    height: calc((100vh / 2) - 12rem);
     justify-content: space-between;
 }
 
 .contact-content > .title-right {
     align-self: flex-start;
-    height: 50%;
 }
 
 .contact-content > .title-right > h2 {
@@ -451,7 +448,7 @@ select {
     border-left: 5px solid #009DC4;
     border-bottom: 5px solid #009DC4;
     padding-left: 1rem;
-    width: 65%;
+    width: 50%;
 }
 
 .contact-email > h3,
@@ -467,6 +464,7 @@ select {
 
 .contact-enquire > .button {
     text-transform: uppercase;
+    margin-bottom: 1rem;
 }
 
 /* Footer section */
@@ -489,7 +487,6 @@ select {
 .footer-details {
     display: flex;
     align-items: center;
-    gap: 16rem;
 }
 
 .footer-details > ul,
@@ -540,6 +537,23 @@ select {
         width: 95px;
         background-size: contain;
         background-repeat: no-repeat;
+    }
+
+    .burger {
+        width: 65px;
+        aspect-ratio: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.8rem;
+        margin-right: 1rem;
+    }
+
+    .mobi-menu {
+        width: 100%;
+        height: 0.5rem;
+        background: #009DC4;
+        border-radius: 0.25rem;
     }
 
     .landing-heading,
@@ -706,11 +720,12 @@ select {
         gap: 2rem;
     }
 
-    .footer-details {
-        margin-top: 1rem;
+    .footer-content > .logo {
         order: 2;
-        flex-direction: column;
-        width: 100%;
+    }
+
+    .footer-content > .business-details {
+        order: 3;
     }
 
     .footer-details > ul {

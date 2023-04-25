@@ -599,6 +599,11 @@ select {
         padding: var(--body-padding);
     }
 
+    .about-content-right > h3 {
+        width: 100vw;
+        margin-bottom: 1rem;
+    }
+
     /* Title MOBILE */
 
     .title-mobi {

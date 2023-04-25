@@ -524,7 +524,7 @@ select {
     /* Landing Page MOBILE */
 
     .navbar {
-        height: 132px;
+        height: 100px;
         padding: var(--body-padding);
     }
 
@@ -534,7 +534,7 @@ select {
 
     .logo {
         background-image: url(img/Color\ logo\ icon\ -\ no\ background.png);
-        width: 95px;
+        width: 70px;
         background-size: contain;
         background-repeat: no-repeat;
     }
